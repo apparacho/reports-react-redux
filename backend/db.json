@@ -1,0 +1,1799 @@
+{
+    "dt_unbinding": {
+        "data": {
+            "ac_by_site": {
+                "26744": [
+                    {
+                        "id": -1,
+                        "name": "Посетители без рекламной кампании"
+                    }
+                ],
+                "43103": [
+                    {
+                        "id": -1,
+                        "name": "Посетители без рекламной кампании"
+                    }
+                ],
+                "16074": [
+                    {
+                        "id": 93557,
+                        "name": "Max"
+                    }
+                ],
+                "5472": [
+                    {
+                        "id": 41115,
+                        "name": "Test"
+                    }
+                ],
+                "17066": [
+                    {
+                        "id": 52754,
+                        "name": "utm_term=123"
+                    }
+                ],
+                "41977": [
+                    {
+                        "id": 168909,
+                        "name": "kuku"
+                    }
+                ],
+                "7748": [
+                    {
+                        "id": 28642,
+                        "name": "123"
+                    }
+                ],
+                "33913": [
+                    {
+                        "id": 131175,
+                        "name": "Тестовая рк 2"
+                    },
+                    {
+                        "id": 131173,
+                        "name": "Тестовая рк 1"
+                    }
+                ],
+                "5056": [
+                    {
+                        "id": 40973,
+                        "name": "Test Maxim"
+                    }
+                ],
+                "17326": [
+                    {
+                        "id": 48544,
+                        "name": "Яндекс.Директ [интегрированная]"
+                    }
+                ],
+                "5473": [
+                    {
+                        "id": 41120,
+                        "name": "Test3"
+                    }
+                ]
+            },
+            "sites": [
+                {
+                    "id": 5056,
+                    "name": "www.rian.ru"
+                },
+                {
+                    "id": 5472,
+                    "name": "rbc.ru"
+                },
+                {
+                    "id": 5473,
+                    "name": "gismeteo.ru"
+                },
+                {
+                    "id": 7748,
+                    "name": "todolist.ala.se"
+                },
+                {
+                    "id": 16074,
+                    "name": "c1578886.mymerchium.ru"
+                },
+                {
+                    "id": 17066,
+                    "name": "example777.ttrss.net"
+                },
+                {
+                    "id": 17326,
+                    "name": "spic.comagic.ru"
+                },
+                {
+                    "id": 26744,
+                    "name": "siteint2.dev.uis.st"
+                },
+                {
+                    "id": 33913,
+                    "name": "siteapp1.webdev.uiscom.ru"
+                },
+                {
+                    "id": 41977,
+                    "name": "siteca3.dev.uis.st"
+                },
+                {
+                    "id": 43103,
+                    "name": "kosar1k.ucoz.net"
+                }
+            ]
+        }
+    },
+    "crm-detail": {
+        "total": 3,
+        "info": {
+            "hash": "",
+            "app_name": "ООО \"ГОФРОТАРА\"",
+            "url": "http://46.160.202.103:13529/wsdl/ISOAPSoftPhoneSrv",
+            "app_id": 38608,
+            "crm_type_name": "rarus1cCRM",
+            "login": "",
+            "ext_account_id": null
+        },
+        "data": [
+            {
+                "employee_id": 402549,
+                "hash": "aa29f6eed608eaa0c60bfaa4b501277a",
+                "ext_crm_id": 678582,
+                "app_id": 47558,
+                "phone": null,
+                "full_name": "Клуб Манго (amoCRM)",
+                "login": "adv@clubmango.ru",
+                "is_main_user": true
+            },
+            {
+                "employee_id": 402550,
+                "hash": "1705bc90f1d445e4f804e6ccf36ec51f",
+                "ext_crm_id": 150490,
+                "app_id": 47558,
+                "phone": null,
+                "full_name": "Настя Иванова (amoCRM)",
+                "login": "nastya@clubmango.ru",
+                "is_main_user": false
+            },
+            {
+                "employee_id": 402551,
+                "hash": "9107d4368c29573533a7b4378681f3eb",
+                "ext_crm_id": 150394,
+                "app_id": 47558,
+                "phone": null,
+                "full_name": "Олег Кухтеев (amoCRM)",
+                "login": "ok@clubmango.ru",
+                "is_main_user": false
+            }
+        ],
+        "success": true
+    },
+    "crm-integrations": {
+        "total": 2605,
+        "data": [
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО \"ГОФРОТАРА\"",
+                "url": "http://46.160.202.103:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 38608,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3743,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": "1С-Рарус",
+                "app_state": "archive",
+                "hash": null,
+                "app_name": "1crm.ru",
+                "url": "http://78.81.57.8:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 4732,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": 4455,
+                "crm_is_active": true,
+                "login": null,
+                "id": 13,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "KfxfFBNESSALR8Xymcn17t0tTF37D47T",
+                "app_name": "Сальников Илья Сергеевич",
+                "url": "https://trial6-on-advantshop4.retailcrm.ru",
+                "app_id": 18252,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": false,
+                "login": "",
+                "id": 3769,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "УКМС ООО",
+                "url": "http://sp.voip.rarus-cloud.ru:13769/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 24003,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3097,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "ООО АКАМ",
+                "url": "http://79.137.222.194:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 39923,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3837,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "Атланта ООО",
+                "url": "http://77.105.131.84:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 11837,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4389,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "ООО \"БИЗНЕС РЕШЕНИЯ\"",
+                "url": "http://95.105.104.220:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 41406,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4162,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "Пупкин Пупка",
+                "url": "http://78.81.57.8:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 16615,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 550,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": "svt_agent_yet1_test",
+                "app_state": "active",
+                "hash": "wedwed",
+                "app_name": "test sberbank",
+                "url": "http://wedwedwe.ru",
+                "app_id": 5569,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": 1900,
+                "crm_is_active": true,
+                "login": "wdewd",
+                "id": 935,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО  \"Диэсджи Консалт\"",
+                "url": "http://185.41.186.199:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 42344,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3928,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "Проспект ООО",
+                "url": "http://213.141.150.27:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 43609,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3903,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО \"ТОКИО СЕРВИС НА НАУЧНОМ\"",
+                "url": "http://81.177.48.215:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 55370,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "administrator",
+                "id": 4363,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "Скиф Сервис ООО",
+                "url": "http://109.194.79.27:1329/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 33172,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4395,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": "Семенов Никита Андреевич",
+                "app_state": "manual_lock",
+                "hash": "",
+                "app_name": "Илья Волгин (исход межгород)",
+                "url": "http://111.222.111.222:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 45035,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": 1891,
+                "crm_is_active": false,
+                "login": "",
+                "id": 4020,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "333 ГК \"Невские Весы\"",
+                "url": "https://vesservice.bitrix24.ru/",
+                "app_id": 16502,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": false,
+                "login": "vesservice",
+                "id": 541,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО \"ПСКК \"Машук Аква-Терм\"",
+                "url": "http://84.54.212.114:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 40818,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 3971,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "Группа Компаний Тис Тюмень",
+                "url": "http://178.46.152.50:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 49204,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4295,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО &quot;Базис&quot;",
+                "url": "http://91.206.19.27:13528/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 46818,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4050,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "active",
+                "hash": "",
+                "app_name": "ООО «ТД «Инжпласт»",
+                "url": "http://82.202.219.148:13529/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 23716,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4080,
+                "ext_account_id": null
+            },
+            {
+                "agent_name": null,
+                "app_state": "archive",
+                "hash": "",
+                "app_name": "ООО \"ОНЛАЙН-КАССА\"",
+                "url": "http://194.226.180.49:13579/wsdl/ISOAPSoftPhoneSrv",
+                "app_id": 46161,
+                "crm_type_name": "rarus1cCRM",
+                "agent_id": null,
+                "crm_is_active": true,
+                "login": "",
+                "id": 4095,
+                "ext_account_id": null
+            }
+        ],
+        "success": true
+    },
+    "component": {
+        "data": [
+            {
+                "id": "amocrm",
+                "name": "amoCRM"
+            },
+            {
+                "id": "bitrix",
+                "name": "Bitrix24"
+            },
+            {
+                "id": "callapi",
+                "name": "Call API \u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043d\u0430\u0431\u043e\u0440"
+            },
+            {
+                "id": "callapi_scenario_call",
+                "name": "Call API \u0412\u044b\u0437\u043e\u0432 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f"
+            },
+            {
+                "id": "callapi_informer_call",
+                "name": "Call API \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0439 \u0432\u044b\u0437\u043e\u0432"
+            },
+            {
+                "id": "callapi_management_call",
+                "name": "Call API \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438"
+            },
+            {
+                "id": "facebook_ads",
+                "name": "Facebook Ads"
+            },
+            {
+                "id": "fmc",
+                "name": "FMC"
+            },
+            {
+                "id": "megaplan",
+                "name": "Megaplan"
+            },
+            {
+                "id": "retailcrm",
+                "name": "retailCRM"
+            },
+            {
+                "id": "sip",
+                "name": "SIP"
+            },
+            {
+                "id": "auto_back_call_by_lost_call",
+                "name": "\u0410\u0432\u0442\u043e\u043f\u0435\u0440\u0435\u0437\u0432\u043e\u043d \u043f\u043e \u043f\u0440\u043e\u043f\u0443\u0449\u0435\u043d\u043d\u044b\u043c"
+            },
+            {
+                "id": "va",
+                "name": "\u0412\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u0430\u044f \u0410\u0422\u0421"
+            },
+            {
+                "id": "callout",
+                "name": "\u041a\u043e\u043b\u0430\u0443\u0442"
+            },
+            {
+                "id": "callback",
+                "name": "\u041a\u043e\u043b\u0431\u044d\u043a"
+            },
+            {
+                "id": "call_tracking",
+                "name": "\u041a\u043e\u043b\u043b-\u0442\u0440\u0435\u043a\u0438\u043d\u0433"
+            },
+            {
+                "id": "lead",
+                "name": "\u041b\u0438\u0434\u043e\u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440"
+            },
+            {
+                "id": "talk_option",
+                "name": "\u041e\u043f\u0446\u0438\u0438 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430"
+            },
+            {
+                "id": "sitephone",
+                "name": "\u0421\u0430\u0439\u0442\u0444\u043e\u043d"
+            }
+        ],
+        "success": true
+    },
+    "route_test_result": {
+        "data": {
+            "prefix_type": "\u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439",
+            "location": "\u041c\u043e\u0441\u043a\u0432\u0430",
+            "numb": "39652140221",
+            "error": null,
+            "routes": [
+                {
+                    "node": null,
+                    "errors": null,
+                    "wholesale_tariff": 0.27,
+                    "zone": null,
+                    "route": "Russia_MN_\u041c\u0422\u0422",
+                    "contract": "\u041a\u041c13000944C",
+                    "tariff": 1.8
+                },
+                {
+                    "node": null,
+                    "errors": null,
+                    "wholesale_tariff": 0.5381,
+                    "zone": null,
+                    "route": "Russia_MN_\u0412\u044b\u043c\u043f\u0435\u043b\u043a\u043e\u043c-VoIP",
+                    "contract": "\u041a\u041c13000944C",
+                    "tariff": 1.8
+                },
+                {
+                    "node": null,
+                    "errors": null,
+                    "wholesale_tariff": 1.2165,
+                    "zone": null,
+                    "route": "MSK_MN_\u0420\u043e\u0441\u0442\u0435\u043b\u0435\u043a\u043e\u043c",
+                    "contract": "RT160036872",
+                    "tariff": 1.8
+                },
+                {
+                    "node": null,
+                    "errors": [
+                        "force lock"
+                    ],
+                    "wholesale_tariff": 0.7765,
+                    "zone": null,
+                    "route": "MSK_MN_\u0412\u044b\u043c\u043f\u0435\u043b\u043a\u043e\u043c",
+                    "contract": "40#\u041a\u041c13000944",
+                    "tariff": 1.8
+                }
+            ],
+            "number_capacity_owner": "\u041e\u041e\u041e \"\u041d\u041e\u0412\u041e\u0421\u0418\u0421\u0422\u0415\u041c\""
+        },
+        "success": true
+    },
+    "calls": {
+        "data": [
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152527,
+                "numa": "79146051175",
+                "numc": null,
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T02:08:33",
+                "total_duration": 7
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152529,
+                "numa": "79045750187",
+                "numc": null,
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T04:36:22",
+                "total_duration": 2
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152531,
+                "numa": "79237120298",
+                "numc": null,
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T05:26:26",
+                "total_duration": 2
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T06:28:46.198",
+                "id": 7152533,
+                "numa": "79136171100",
+                "numc": "076528",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T06:28:16",
+                "total_duration": 316
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T07:28:33.633",
+                "id": 7152537,
+                "numa": "79262625446",
+                "numc": "076528",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:27:40",
+                "total_duration": 217
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T07:38:41.236",
+                "id": 7152541,
+                "numa": "79526198631",
+                "numc": "076528",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:38:12",
+                "total_duration": 35
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T07:53:26.8",
+                "id": 7152545,
+                "numa": "79097003643",
+                "numc": "076528",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:52:53",
+                "total_duration": 249
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T07:57:11.595",
+                "id": 7152547,
+                "numa": "79262625446",
+                "numc": "076528",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:56:54",
+                "total_duration": 175
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T07:59:01.444",
+                "id": 7152549,
+                "numa": "79053180388",
+                "numc": "74959268686",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:58:45",
+                "total_duration": 39
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152551,
+                "numa": "79053180388",
+                "numc": null,
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T07:59:01",
+                "total_duration": 24
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152851,
+                "numa": "79053180388",
+                "numc": null,
+                "platform_name": null,
+                "release_desc_name": null,
+                "start_time": "2019-04-01T07:59:25",
+                "total_duration": 0
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152853,
+                "numa": "79053180388",
+                "numc": null,
+                "platform_name": null,
+                "release_desc_name": null,
+                "start_time": "2019-04-01T08:04:26",
+                "total_duration": 0
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T08:17:27.557",
+                "id": 7152553,
+                "numa": "79053180388",
+                "numc": "076639",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0414\u043e\u0441\u0442\u0438\u0433\u043d\u0443\u0442\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432 \u043f\u043e \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u044f\u043c \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f",
+                "start_time": "2019-04-01T08:17:24",
+                "total_duration": 39
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T08:18:28.79",
+                "id": 7152555,
+                "numa": "79053180388",
+                "numc": "076639",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0414\u043e\u0441\u0442\u0438\u0433\u043d\u0443\u0442\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432 \u043f\u043e \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u044f\u043c \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u044f",
+                "start_time": "2019-04-01T08:18:12",
+                "total_duration": 49
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T08:20:44.658",
+                "id": 7152557,
+                "numa": "74957436183",
+                "numc": "076639",
+                "platform_name": "ppm",
+                "release_desc_name": "\u041d\u0435\u0442 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u0434\u043b\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438",
+                "start_time": "2019-04-01T08:20:42",
+                "total_duration": 10
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": null,
+                "id": 7152559,
+                "numa": "79219665762",
+                "numc": null,
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T08:33:14",
+                "total_duration": 2
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T08:34:03.873",
+                "id": 7142915,
+                "numa": "79219665762",
+                "numc": "74959268686",
+                "platform_name": "pp3",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T08:34:00",
+                "total_duration": 187
+            },
+            {
+                "app_name": "\u041a\u0443\u0434\u0438\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439",
+                "connect_time": "2019-04-01T08:34:19.728",
+                "id": 7152561,
+                "numa": "79219665762",
+                "numc": "076957",
+                "platform_name": "ppm",
+                "release_desc_name": "\u0410\u0431\u043e\u043d\u0435\u043d\u0442 \u0440\u0430\u0437\u043e\u0440\u0432\u0430\u043b \u0441\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435",
+                "start_time": "2019-04-01T08:34:03",
+                "total_duration": 185
+            }
+        ],
+        "msg": "",
+        "success": true,
+        "total": 6111
+    },
+    "customer": {
+        "data": {
+            "app": {
+                "is_agent": false,
+                "app_id": 4735,
+                "is_use_numb_as_numa": true,
+                "hide_return_commission": null,
+                "customer_id": 265436,
+                "transit_dst_app_id": null
+            },
+            "dt_black_ip": [
+                {
+                    "ip": "109.172.11.124/32",
+                    "description": null,
+                    "customer_id": 265436,
+                    "id": 1135,
+                    "app_id": 4735
+                },
+                {
+                    "ip": "109.172.11.121/32",
+                    "description": null,
+                    "customer_id": 265436,
+                    "id": 1136,
+                    "app_id": 4735
+                },
+                {
+                    "ip": "109.172.11.122/32",
+                    "description": null,
+                    "customer_id": 265436,
+                    "id": 1137,
+                    "app_id": 4735
+                },
+                {
+                    "ip": "109.172.11.123/32",
+                    "description": null,
+                    "customer_id": 265436,
+                    "id": 1138,
+                    "app_id": 4735
+                },
+                {
+                    "ip": "109.172.48.123/32",
+                    "description": null,
+                    "customer_id": 265436,
+                    "id": 1139,
+                    "app_id": 4735
+                }
+            ],
+            "site": [
+                {
+                    "domain": "www.rian.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 5056,
+                    "id": "4735,5056",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "rbc.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 5472,
+                    "id": "4735,5472",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "gismeteo.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 5473,
+                    "id": "4735,5473",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.oltp.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 7226,
+                    "id": "4735,7226",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "todolist.ala.se",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 7748,
+                    "id": "4735,7748",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "ps.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 11603,
+                    "id": "4735,11603",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "new.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 11915,
+                    "id": "4735,11915",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.example-abc.com",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 13783,
+                    "id": "4735,13783",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test-max.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 14887,
+                    "id": "4735,14887",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "qwerty.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 15686,
+                    "id": "4735,15686",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "c1578886.mymerchium.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 16074,
+                    "id": "4735,16074",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "example777.ttrss.net",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 17066,
+                    "id": "4735,17066",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "spic.comagic.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 17326,
+                    "id": "4735,17326",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "svetlana.ttrss.net",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18589,
+                    "id": "4735,18589",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test123.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18918,
+                    "id": "4735,18918",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "tedt1234.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18919,
+                    "id": "4735,18919",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test1234.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18920,
+                    "id": "4735,18920",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18978,
+                    "id": "4735,18978",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.testggg.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18980,
+                    "id": "4735,18980",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test123.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18994,
+                    "id": "4735,18994",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.test.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18995,
+                    "id": "4735,18995",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.test123.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18997,
+                    "id": "4735,18997",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.spic.comagic.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 18999,
+                    "id": "4735,18999",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "spic.comagic.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 19006,
+                    "id": "4735,19006",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "spic.comagic.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 19007,
+                    "id": "4735,19007",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.ss-test.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 19547,
+                    "id": "4735,19547",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "idvorniki.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 23989,
+                    "id": "4735,23989",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.tz-nn.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 24701,
+                    "id": "4735,24701",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "siteapp.webdev.uiscom.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 25129,
+                    "id": "4735,25129",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "enter-city.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 25870,
+                    "id": "4735,25870",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "siteint2.dev.uis.st",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 26744,
+                    "id": "4735,26744",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.clinica-ivf.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 28327,
+                    "id": "4735,28327",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.rf-ivf.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 28329,
+                    "id": "4735,28329",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "www.rusivf.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 28330,
+                    "id": "4735,28330",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "test.com.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 31513,
+                    "id": "4735,31513",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "siteapp1.webdev.uiscom.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 33913,
+                    "id": "4735,33913",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "cetelem.ru",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 39559,
+                    "id": "4735,39559",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "siteca3.dev.uis.st",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 41977,
+                    "id": "4735,41977",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "kosar1k.ucoz.net",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 43103,
+                    "id": "4735,43103",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                },
+                {
+                    "domain": "ns-studio.su",
+                    "banner_branding_text": "CoMagic.ru",
+                    "site_id": 43525,
+                    "id": "4735,43525",
+                    "banner_branding_url": "http://www.comagic.ru/?utm_medium=widget&utm_campaign=link_widget"
+                }
+            ]
+        }
+    },
+    "apps": {
+        "data": [
+            {
+                "agent_app_ids": null,
+                "domain": null,
+                "balance": 0.00,
+                "name": "test123",
+                "watching_app_ids": [],
+                "tp_id": 238,
+                "is_agent": false,
+                "agent_id": null,
+                "app_id": 64276,
+                "tariff_plan": "CoMagic Optimum - Trial",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ19066435",
+                "hide_return_commission": null,
+                "login": "ab985d8@mail.com",
+                "customer_id": 54714,
+                "transit_dst_app_id": null,
+                "numbers": null
+            },
+            {
+                "agent_app_ids": null,
+                "domain": null,
+                "balance": 0.00,
+                "name": "Agent-test",
+                "watching_app_ids": [],
+                "tp_id": 120,
+                "is_agent": true,
+                "agent_id": null,
+                "app_id": 64275,
+                "tariff_plan": "Агент",
+                "state_name": "Ожидание",
+                "is_use_numb_as_numa": null,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ19066434",
+                "hide_return_commission": false,
+                "login": "abAgent8@mail.ru",
+                "customer_id": 54713,
+                "transit_dst_app_id": null,
+                "numbers": null
+            },
+            {
+                "agent_app_ids": null,
+                "domain": null,
+                "balance": 0.00,
+                "name": "test123",
+                "watching_app_ids": [],
+                "tp_id": 238,
+                "is_agent": false,
+                "agent_id": null,
+                "app_id": 64274,
+                "tariff_plan": "CoMagic Optimum - Trial",
+                "state_name": "Автоблокировка",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ19066433",
+                "hide_return_commission": null,
+                "login": "abcd8@qamail.ala.se",
+                "customer_id": 54712,
+                "transit_dst_app_id": null,
+                "numbers": null
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "tvoy-balance.ru, get-balance.ru",
+                "balance": -696085.34,
+                "name": "ЖК Баланс",
+                "watching_app_ids": [],
+                "tp_id": 406,
+                "is_agent": false,
+                "agent_id": 29875,
+                "app_id": 57647,
+                "tariff_plan": "Comagic Enterprise",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 0,
+                "search": 0,
+                "account_number": "КМ16037683",
+                "hide_return_commission": null,
+                "login": "smartisgvs3, agent_customer_57647, Albina.Saetgareeva2, Vladimir.Bogdaniuk2, Aleksandr.Simakov1@glavstroy.ru",
+                "customer_id": 24783,
+                "transit_dst_app_id": null,
+                "numbers": "74954315233, 74954315211, 74954314990, 74954314861, 74954314463, 74954314456, 74954314332, 74954312355, 74954311826, 74951062055, 74953249521, 74953249211, 74953247814, 74953247583, 74953246929, 74953245731, 74953245714, 74953245696, 74953244542, 74953244529, 74953243387, 74953242978, 74953242966, 74953242962, 74953242961, 74953242689, 74953240267, 74953240266, 74951526329, 74951526182, 74951060885, 74953208794, 74959662354, 74953204354, 74953204346, 74953203754, 74953203392, 74953203378, 74953200168, 74952557921, 74952557894, 74952557827, 74952557736, 74951324730, 74951324724, 74951323768, 74952553643, 74951321087, 74951320775, 74951320649, 74951320562, 74951629602, 74952550360, 74951252841, 74951253635, 74952562622, 74954316012, 74954315170, 74954313274, 74954311586, 74954311573, 74953242676, 74953242675, 74953242150, 74951527959, 74953204176, 74953204150, 74953204139, 74951042005, 74959662312, 74952554432, 74951510835, 74954323004, 74951810946, 74954318892, 74953241930, 74952551402, 74952551230, 74951822317, 74954310967, 74950217945, 74951064904, 74953207752, 74959663137, 74952552709, 74953203192, 74952560357, 74951046984, 74951518948, 74952554026, 74951063386, 74951814273, 74951250783, 74957237596, 74952552438, 74951252877, 74951353679, 74951254963, 74951521294, 74951826838, 74951511297, 74951252319, 74954311630, 74954311571, 74952554429, 74951251782, 74952564428, 74954315165, 74952564421, 74954311533, 74953242984, 74953242993, 74951354694, 74951044752, 74952560991, 74951810553, 74952368340, 74951812285, 74953242679, 74951523690, 74954316210, 74953242960, 74959843008, 74959894468, 74951518129, 74951251997, 74951353491, 74953203367, 74953203124, 74952557597, 74951323079, 74951320645, 74951320536, 74951320218, 74953242677, 74950234343, 74953243679, 74953243450, 74953242682, 74953242393, 74953242386, 74953242321, 74953242135, 74953241128, 74951827726, 74951812276, 74951510667, 74951825946, 74954318274, 74954317523, 74954316057, 74954316056, 74952564349, 74951524596, 74952557732, 74951629929"
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "beregovoy-kvartal.ru, gift-to-loved-ones.beregovoy-kvartal.ru",
+                "balance": -696085.34,
+                "name": "ЖК Береговой",
+                "watching_app_ids": [],
+                "tp_id": 237,
+                "is_agent": false,
+                "agent_id": 29875,
+                "app_id": 50852,
+                "tariff_plan": "CoMagic Enterprise_old",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ16037683",
+                "hide_return_commission": null,
+                "login": "smartisglvs1, cvg_beregovoy, agent_customer_50852, beregovoy_PBI, Vladimir.Bogdaniuk3, Albina.Saetgareeva13, cmgc_fb6, mva@2rmedia, Dmitrii.Kubyshkin1@glavstroy.ru",
+                "customer_id": 24783,
+                "transit_dst_app_id": null,
+                "numbers": "74954314289, 74954314251, 74954314235, 74954314218, 74954314196, 74954314195, 74954315015, 74954318635, 74954318632, 74954318105, 74951044988, 74954318492, 74950216133, 74954315048, 74954315047, 74954315046, 74954314304, 74954320986, 74951518958, 74952563857, 74952368891, 74951851564, 74951627011, 74951625034, 74951353969, 74951320668, 74951320648, 74954322153, 74954322127, 74954322117, 74954320988, 74959844219, 74959843221, 74952564877, 74951511827, 74951323795, 74951323161, 74952369606, 74950216129, 74950216128, 74953245540, 74953242790, 74953242673, 74953242670, 74954318296, 74953242972, 74953242969, 74953242968, 74953242967, 74950216120, 74953242773, 74953242699, 74951511441, 74954324573, 74954324276, 74959894646, 74951850381, 74952552879, 74952369703, 74954314882, 74954314769, 74951064902, 74951526376, 74951354721, 74951518158, 74951322982, 74951813545, 74950320150, 74950320249, 74950320244, 74950320229, 74950320225, 74950320223, 74950320221, 74950320219, 74950320214, 74950320213, 74950320211, 74950320207, 74953246899, 74951824852, 74951824851, 74951824840, 74954316189, 74954316058, 74954312758, 74950320183, 74950320182, 74953242998, 74953242994, 74953242986, 74953242976, 74953242970, 74953242786, 74953242704, 74953242702, 74953242694, 74953242693, 74953242692, 74953242691, 74953242688, 74953242680, 74951060699, 74951046344, 74951820885, 74951820299, 74951061388, 74951824854, 74954311459, 74953242894, 74951049578, 74954315489, 74953207531, 74951851485, 74951851184, 74959892271, 74953203753, 74953202494, 74953201248, 74951628691, 74951628634, 74954324789, 74954323986, 74954321427, 74954321387, 74954321305, 74951518362, 74952554437, 74952554471, 74959661347, 74951046522, 74951045988, 74951353081, 74954311632, 74954311579, 74954311577, 74954311575, 74954311570, 74954311558, 74954311524, 74954311496, 74954314511, 74954314472, 74951528936, 74953202746, 74953200930, 74954323870, 74954321019, 74951253265, 74952367139, 74952550567, 74953204793, 74953204138, 74953203359, 74953203171, 74953203129, 74952369118, 74953204465, 74951254139, 74952561092, 74953247936, 74953247928, 74953247923, 74953247917, 74953247890, 74953247870, 74953241543, 74953241541, 74950216113, 74951323629, 74952564659, 74952561487, 74954321791, 74950320167, 74953242687, 74953242683, 74954314576, 74959848772, 74951352234, 74952562091, 74950219565"
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "www.nevromed2016.ru",
+                "balance": -91593.28,
+                "name": "nevromed2016.ru",
+                "watching_app_ids": [],
+                "tp_id": 231,
+                "is_agent": false,
+                "agent_id": 2251,
+                "app_id": 35315,
+                "tariff_plan": "Happy Start",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ14000048",
+                "hide_return_commission": null,
+                "login": "TestLena, nevromed2016@yandex.ru, agent_customer_35315",
+                "customer_id": 3898,
+                "transit_dst_app_id": null,
+                "numbers": "74951322441, 74951811276, 74951253138, 74951320482"
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "www.dynasty-home.ru",
+                "balance": -696085.34,
+                "name": "Династия",
+                "watching_app_ids": [],
+                "tp_id": 236,
+                "is_agent": false,
+                "agent_id": 29875,
+                "app_id": 30879,
+                "tariff_plan": "CoMagic Optimum_old",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ16037683",
+                "hide_return_commission": null,
+                "login": "sotrudniki_dynasty, Vladimir.Bogdaniuk1, lobanova@cvglobal, lebedev@tisn.ru, Albert.Karpov, agent_customer_30879, Albina.Saetgareeva14, cmgc_fb7, cvg_dynasty, a.trofimets@integroagency.ru, comagicsrv",
+                "customer_id": 24783,
+                "transit_dst_app_id": null,
+                "numbers": "74852281604, 74852281599, 74852281603, 74852281602, 74852281601, 74852281594, 74852281588, 74852281586, 74852281566, 74852281562, 74852281558, 74852281546, 74852281541, 74852281544, 74852281533, 74852280231, 74852281619, 74852281612, 74852281530, 74852281522, 74852281517, 74852281605, 74852281519, 74852281494, 74852281486, 74852281524, 74852281503, 74852281499, 74852281159, 74852281149, 74852281247, 74852281237, 74852280227, 74852231055, 74852280177, 74852230702, 74852280217, 74852280041, 74852231022, 74852231054, 74852231024, 74852231052, 74852280437, 74852280291, 74852280411, 74852280332, 74852280324, 74852280322, 74852280311, 74852231089, 74852230483, 74852231097, 74852280063, 74852231028, 74852280399, 74852231088, 74852281156, 74852231096, 74852280211, 74852280422, 74852280232, 74852280233"
+            },
+            {
+                "agent_app_ids": [
+                    27406,
+                    30879,
+                    50852,
+                    57647
+                ],
+                "domain": "tvoy-balance.ru, get-balance.ru, 100lichny.ru, www.dynasty-home.ru, beregovoy-kvartal.ru, gift-to-loved-ones.beregovoy-kvartal.ru",
+                "balance": -696085.34,
+                "name": "АО \"Главстрой-Недвижимость\"",
+                "watching_app_ids": [],
+                "tp_id": 120,
+                "is_agent": true,
+                "agent_id": null,
+                "app_id": 29875,
+                "tariff_plan": "Агент",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": null,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ16037683",
+                "hide_return_commission": false,
+                "login": "smartisgvs3, agent_customer_57647, Albina.Saetgareeva2, Vladimir.Bogdaniuk2, Aleksandr.Simakov1@glavstroy.ru, smartisglvs2, cvg_100lichny, Vladimir.Bogdaniuk4, lebedev12, agent_customer_27406, Albina.Saetgareeva12, mva@2r-media.ru, account, smartmedia_100lichny, comagic_fb_stolichn, mva2r-media, Vladimir.Bogdaniuk, smartisgvs, Albina.Saetgareeva, dmitrii.kubyshkin@glavstroy.ru, sotrudniki_dynasty, Vladimir.Bogdaniuk1, lobanova@cvglobal, lebedev@tisn.ru, Albert.Karpov, agent_customer_30879, Albina.Saetgareeva14, cmgc_fb7, cvg_dynasty, a.trofimets@integroagency.ru, comagicsrv, smartisglvs1, cvg_beregovoy, agent_customer_50852, beregovoy_PBI, Vladimir.Bogdaniuk3, Albina.Saetgareeva13, cmgc_fb6, mva@2rmedia, Dmitrii.Kubyshkin1@glavstroy.ru",
+                "customer_id": 24783,
+                "transit_dst_app_id": null,
+                "numbers": "74954315233, 74954315211, 74954314990, 74954314861, 74954314463, 74954314456, 74954314332, 74954312355, 74954311826, 74951062055, 74953249521, 74953249211, 74953247814, 74953247583, 74953246929, 74953245731, 74953245714, 74953245696, 74953244542, 74953244529, 74953243387, 74953242978, 74953242966, 74953242962, 74953242961, 74953242689, 74953240267, 74953240266, 74951526329, 74951526182, 74951060885, 74953208794, 74959662354, 74953204354, 74953204346, 74953203754, 74953203392, 74953203378, 74953200168, 74952557921, 74952557894, 74952557827, 74952557736, 74951324730, 74951324724, 74951323768, 74952553643, 74951321087, 74951320775, 74951320649, 74951320562, 74951629602, 74952550360, 74951252841, 74951253635, 74952562622, 74954316012, 74954315170, 74954313274, 74954311586, 74954311573, 74953242676, 74953242675, 74953242150, 74951527959, 74953204176, 74953204150, 74953204139, 74951042005, 74959662312, 74952554432, 74951510835, 74954323004, 74951810946, 74954318892, 74953241930, 74952551402, 74952551230, 74951822317, 74954310967, 74950217945, 74951064904, 74953207752, 74959663137, 74952552709, 74953203192, 74952560357, 74951046984, 74951518948, 74952554026, 74951063386, 74951814273, 74951250783, 74957237596, 74952552438, 74951252877, 74951353679, 74951254963, 74951521294, 74951826838, 74951511297, 74951252319, 74954311630, 74954311571, 74952554429, 74951251782, 74952564428, 74954315165, 74952564421, 74954311533, 74953242984, 74953242993, 74951354694, 74951044752, 74952560991, 74951810553, 74952368340, 74951812285, 74953242679, 74951523690, 74954316210, 74953242960, 74959843008, 74959894468, 74951518129, 74951251997, 74951353491, 74953203367, 74953203124, 74952557597, 74951323079, 74951320645, 74951320536, 74951320218, 74953242677, 74950234343, 74953243679, 74953243450, 74953242682, 74953242393, 74953242386, 74953242321, 74953242135, 74953241128, 74951827726, 74951812276, 74951510667, 74951825946, 74954318274, 74954317523, 74954316057, 74954316056, 74952564349, 74951524596, 74952557732, 74951629929, 74951525132, 74951852251, 74952550286, 74951852283, 74950216044, 74950216003, 74953248269, 74951852478, 74951851739, 74953243144, 74951826203, 74951625321, 74951044754, 74951519006, 74951813459, 74950216977, 74954317723, 74950219077, 74950219477, 74951045571, 74950219902, 74950216033, 74950219901, 74950219244, 74950219442, 74950219533, 74950216008, 74954317725, 74950216032, 74953244772, 74951527724, 74951527720, 74950216009, 74950216004, 74954320878, 74954320882, 74954320881, 74954320891, 74954320886, 74954320885, 74954320883, 74954320918, 74954320917, 74954320916, 74954320915, 74954320912, 74954320906, 74954320905, 74954320952, 74954320951, 74954320934, 74954320933, 74954320931, 74954320930, 74954320928, 74954320925, 74954320920, 74954320924, 74954320903, 74954320895, 74954320894, 74954320893, 74954320892, 74951042028, 74952560919, 74950216024, 74951252313, 74951525135, 74951525126, 74951525134, 74951525130, 74951525123, 74951525122, 74951251893, 74951251644, 74952564900, 74952561977, 74951044714, 74952555172, 74952550283, 74951323539, 74952561936, 74953208000, 74951524444, 74951626666, 74951524568, 74953209854, 74951813345, 74950217324, 74950219106, 74951352977, 74951525142, 74951525140, 74951525136, 74952553644, 74959881149, 74959848192, 74959841960, 74952552152, 74953201477, 74953239488, 74953239905, 74950215320, 74953208636, 74953208463, 74952557867, 74952553446, 74952561339, 74952561303, 74950216274, 74952551277, 74951811676, 74951320244, 74951045123, 74951323589, 74951322065, 74952552742, 74951828576, 74953204833, 74951625945, 74951049134, 74951044715, 74951049122, 74951851997, 74951525121, 74951524567, 74959661326, 74952552457, 74953204238, 74951354889, 74959759056, 74954320125, 74951851994, 74951353157, 74952551434, 74951065177, 74954321935, 74952367055, 74951827917, 74951062599, 74951062441, 74951523547, 74951324547, 74951810185, 74951510489, 74951511946, 74951519759, 74952562207, 74951350864, 74951251786, 74952563075, 74952555452, 74951044899, 74951044716, 74951044708, 74951044695, 74951044681, 74951044691, 74951626923, 74952555028, 74951045198, 74951353393, 74951064903, 74951045197, 74952553765, 74952553437, 74950219277, 74954320887, 74957773808, 74952550766, 74951822995, 74951047433, 74951350159, 74951250963, 74952553250, 74951068646, 74952560162, 74952553510, 74952553430, 74953204236, 74953631365, 74951045196, 74957972069, 74952564850, 74951525128, 74951045422, 74951525124, 74952553571, 74951525143, 74951525139, 74951525138, 74951525137, 74951525131, 74951525129, 74953208319, 74951851976, 74953204237, 74951625831, 74954323213, 74959895715, 74953630249, 74952553156, 74952367351, 74951352468, 74951044950, 74951044753, 74951044703, 74951044693, 74952555693, 74959840086, 74959661805, 74951512619, 74951351052, 74952564822, 74951251436, 74951251268, 74951045431, 74952562970, 74852281604, 74852281599, 74852281603, 74852281602, 74852281601, 74852281594, 74852281588, 74852281586, 74852281566, 74852281562, 74852281558, 74852281546, 74852281541, 74852281544, 74852281533, 74852280231, 74852281619, 74852281612, 74852281530, 74852281522, 74852281517, 74852281605, 74852281519, 74852281494, 74852281486, 74852281524, 74852281503, 74852281499, 74852281159, 74852281149, 74852281247, 74852281237, 74852280227, 74852231055, 74852280177, 74852230702, 74852280217, 74852280041, 74852231022, 74852231054, 74852231024, 74852231052, 74852280437, 74852280291, 74852280411, 74852280332, 74852280324, 74852280322, 74852280311, 74852231089, 74852230483, 74852231097, 74852280063, 74852231028, 74852280399, 74852231088, 74852281156, 74852231096, 74852280211, 74852280422, 74852280232, 74852280233, 74954314289, 74954314251, 74954314235, 74954314218, 74954314196, 74954314195, 74954315015, 74954318635, 74954318632, 74954318105, 74951044988, 74954318492, 74950216133, 74954315048, 74954315047, 74954315046, 74954314304, 74954320986, 74951518958, 74952563857, 74952368891, 74951851564, 74951627011, 74951625034, 74951353969, 74951320668, 74951320648, 74954322153, 74954322127, 74954322117, 74954320988, 74959844219, 74959843221, 74952564877, 74951511827, 74951323795, 74951323161, 74952369606, 74950216129, 74950216128, 74953245540, 74953242790, 74953242673, 74953242670, 74954318296, 74953242972, 74953242969, 74953242968, 74953242967, 74950216120, 74953242773, 74953242699, 74951511441, 74954324573, 74954324276, 74959894646, 74951850381, 74952552879, 74952369703, 74954314882, 74954314769, 74951064902, 74951526376, 74951354721, 74951518158, 74951322982, 74951813545, 74950320150, 74950320249, 74950320244, 74950320229, 74950320225, 74950320223, 74950320221, 74950320219, 74950320214, 74950320213, 74950320211, 74950320207, 74953246899, 74951824852, 74951824851, 74951824840, 74954316189, 74954316058, 74954312758, 74950320183, 74950320182, 74953242998, 74953242994, 74953242986, 74953242976, 74953242970, 74953242786, 74953242704, 74953242702, 74953242694, 74953242693, 74953242692, 74953242691, 74953242688, 74953242680, 74951060699, 74951046344, 74951820885, 74951820299, 74951061388, 74951824854, 74954311459, 74953242894, 74951049578, 74954315489, 74953207531, 74951851485, 74951851184, 74959892271, 74953203753, 74953202494, 74953201248, 74951628691, 74951628634, 74954324789, 74954323986, 74954321427, 74954321387, 74954321305, 74951518362, 74952554437, 74952554471, 74959661347, 74951046522, 74951045988, 74951353081, 74954311632, 74954311579, 74954311577, 74954311575, 74954311570, 74954311558, 74954311524, 74954311496, 74954314511, 74954314472, 74951528936, 74953202746, 74953200930, 74954323870, 74954321019, 74951253265, 74952367139, 74952550567, 74953204793, 74953204138, 74953203359, 74953203171, 74953203129, 74952369118, 74953204465, 74951254139, 74952561092, 74953247936, 74953247928, 74953247923, 74953247917, 74953247890, 74953247870, 74953241543, 74953241541, 74950216113, 74951323629, 74952564659, 74952561487, 74954321791, 74950320167, 74953242687, 74953242683, 74954314576, 74959848772, 74951352234, 74952562091, 74950219565"
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "mg-msk.ru",
+                "balance": -91593.28,
+                "name": "mg-msk.ru",
+                "watching_app_ids": [],
+                "tp_id": 405,
+                "is_agent": false,
+                "agent_id": 2251,
+                "app_id": 28384,
+                "tariff_plan": "Comagic Optimum",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ14000048",
+                "hide_return_commission": null,
+                "login": "metallgrupp@inbox.ru, agent_customer_28384",
+                "customer_id": 3898,
+                "transit_dst_app_id": null,
+                "numbers": "74950230595, 74950230594, 74950230593, 74950230592, 74951049923, 74951049916, 74951049903, 74951049432, 74951049920, 74951049915, 74951049910, 74951049908, 74951049921, 74951049918, 74951049913"
+            },
+            {
+                "agent_app_ids": null,
+                "domain": "100lichny.ru",
+                "balance": -696085.34,
+                "name": "Столичный",
+                "watching_app_ids": [],
+                "tp_id": 237,
+                "is_agent": false,
+                "agent_id": 29875,
+                "app_id": 27406,
+                "tariff_plan": "CoMagic Enterprise_old",
+                "state_name": "Активен",
+                "is_use_numb_as_numa": false,
+                "node_id": 1,
+                "search": 0,
+                "account_number": "КМ16037683",
+                "hide_return_commission": null,
+                "login": "smartisglvs2, cvg_100lichny, Vladimir.Bogdaniuk4, lebedev12, agent_customer_27406, Albina.Saetgareeva12, mva@2r-media.ru, account, smartmedia_100lichny, comagic_fb_stolichn",
+                "customer_id": 24783,
+                "transit_dst_app_id": null,
+                "numbers": "74951525132, 74951852251, 74952550286, 74951852283, 74950216044, 74950216003, 74953248269, 74951852478, 74951851739, 74953243144, 74951826203, 74951625321, 74951044754, 74951519006, 74951813459, 74950216977, 74954317723, 74950219077, 74950219477, 74951045571, 74950219902, 74950216033, 74950219901, 74950219244, 74950219442, 74950219533, 74950216008, 74954317725, 74950216032, 74953244772, 74951527724, 74951527720, 74950216009, 74950216004, 74954320878, 74954320882, 74954320881, 74954320891, 74954320886, 74954320885, 74954320883, 74954320918, 74954320917, 74954320916, 74954320915, 74954320912, 74954320906, 74954320905, 74954320952, 74954320951, 74954320934, 74954320933, 74954320931, 74954320930, 74954320928, 74954320925, 74954320920, 74954320924, 74954320903, 74954320895, 74954320894, 74954320893, 74954320892, 74951042028, 74952560919, 74950216024, 74951252313, 74951525135, 74951525126, 74951525134, 74951525130, 74951525123, 74951525122, 74951251893, 74951251644, 74952564900, 74952561977, 74951044714, 74952555172, 74952550283, 74951323539, 74952561936, 74953208000, 74951524444, 74951626666, 74951524568, 74953209854, 74951813345, 74950217324, 74950219106, 74951352977, 74951525142, 74951525140, 74951525136, 74952553644, 74959881149, 74959848192, 74959841960, 74952552152, 74953201477, 74953239488, 74953239905, 74950215320, 74953208636, 74953208463, 74952557867, 74952553446, 74952561339, 74952561303, 74950216274, 74952551277, 74951811676, 74951320244, 74951045123, 74951323589, 74951322065, 74952552742, 74951828576, 74953204833, 74951625945, 74951049134, 74951044715, 74951049122, 74951851997, 74951525121, 74951524567, 74959661326, 74952552457, 74953204238, 74951354889, 74959759056, 74954320125, 74951851994, 74951353157, 74952551434, 74951065177, 74954321935, 74952367055, 74951827917, 74951062599, 74951062441, 74951523547, 74951324547, 74951810185, 74951510489, 74951511946, 74951519759, 74952562207, 74951350864, 74951251786, 74952563075, 74952555452, 74951044899, 74951044716, 74951044708, 74951044695, 74951044681, 74951044691, 74951626923, 74952555028, 74951045198, 74951353393, 74951064903, 74951045197, 74952553765, 74952553437, 74950219277, 74954320887, 74957773808, 74952550766, 74951822995, 74951047433, 74951350159, 74951250963, 74952553250, 74951068646, 74952560162, 74952553510, 74952553430, 74953204236, 74953631365, 74951045196, 74957972069, 74952564850, 74951525128, 74951045422, 74951525124, 74952553571, 74951525143, 74951525139, 74951525138, 74951525137, 74951525131, 74951525129, 74953208319, 74951851976, 74953204237, 74951625831, 74954323213, 74959895715, 74953630249, 74952553156, 74952367351, 74951352468, 74951044950, 74951044753, 74951044703, 74951044693, 74952555693, 74959840086, 74959661805, 74951512619, 74951351052, 74952564822, 74951251436, 74951251268, 74951045431, 74952562970"
+            }
+        ],
+        "metadata": {
+            "total_items": 14
+        }
+    },
+    "user": {
+        "data": {
+            "login": "nekhoroshev",
+            "role_id": 3,
+            "user_id": 80045,
+            "user_name": "Нехорошев Артем",
+            "user_role": "developer"
+        }
+    },
+    "users": {
+        "data": [
+            {
+                "login": "nekhoroshev",
+                "role_name": "developer",
+                "name": "Нехорошев Артем",
+                "id": 80045
+            },
+            {
+                "id": 3,
+                "login": "comagic_api",
+                "name": "comagic_api",
+                "password": "3297e0fd86839eb040f53dcb6677c039",
+                "role_name": 1
+            },
+            {
+                "id": 4,
+                "login": "comagic_scheduler",
+                "name": "comagic_scheduler",
+                "password": "nopassword",
+                "role_name": 1
+            },
+            {
+                "id": 5,
+                "login": "consultant",
+                "name": "consultant",
+                "password": "nopassword",
+                "role_name": 6
+            },
+            {
+                "id": 2,
+                "login": "no_login",
+                "name": "infopin",
+                "password": "nopassword",
+                "role_name": 1
+            },
+            {
+                "id": 1,
+                "login": "system",
+                "name": "system",
+                "password": "nopassword",
+                "role_name": 1
+            },
+            {
+                "id": 107159,
+                "login": "abdullaev",
+                "name": "\u0410\u0431\u0434\u0443\u043b\u043b\u0430\u0435\u0432 \u0422\u0435\u0439\u043c\u0443\u0440",
+                "password": "140f6969d5213fd0ece03148e62e461e",
+                "role_name": 2
+            },
+            {
+                "id": 24968,
+                "login": "abeltsev",
+                "name": "\u0410\u0431\u0435\u043b\u044c\u0446\u0435\u0432 \u0410\u043d\u0434\u0440\u0435\u0439",
+                "password": "baf22ddb7b1a317d860f48638254e2e9",
+                "role_name": 7
+            },
+            {
+                "id": 96522,
+                "login": "avdeev",
+                "name": "\u0410\u0432\u0434\u0435\u0435\u0432 \u0415\u0433\u043e\u0440",
+                "password": "9588cd34d418fe245f5f8bf79e51853d",
+                "role_name": 2
+            },
+            {
+                "id": 118006,
+                "login": "ajrapetyan",
+                "name": "\u0410\u0439\u0440\u0430\u043f\u0435\u0442\u044f\u043d \u042f\u043d",
+                "password": "140f6969d5213fd0ece03148e62e461e",
+                "role_name": 2
+            },
+            {
+                "id": 31995,
+                "login": "aleksandrova",
+                "name": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0430 \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430",
+                "password": "c177dc6fd2fe113eccf123c42a498253",
+                "role_name": 2
+            },
+            {
+                "id": 24438,
+                "login": "alferova",
+                "name": "\u0410\u043b\u0444\u0451\u0440\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430",
+                "password": "7aa8d44c1c30d7e22421820f1ba0031b",
+                "role_name": 2
+            },
+            {
+                "id": 84765,
+                "login": "andreyko",
+                "name": "\u0410\u043d\u0434\u0440\u0435\u0439\u043a\u043e \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f",
+                "password": "a23beb22e7910dfab39bde11182b4aaf",
+                "role_name": 2
+            },
+            {
+                "id": 67422,
+                "login": "andriyanova",
+                "name": "\u0410\u043d\u0434\u0440\u0438\u044f\u043d\u043e\u0432\u0430 \u041d\u0430\u0442\u0430\u043b\u0438\u044f",
+                "password": "d0e6074e2cfaa8b21887d511e40b777a",
+                "role_name": 2
+            },
+            {
+                "id": 98487,
+                "login": "andronychev",
+                "name": "\u0410\u043d\u0434\u0440\u043e\u043d\u044b\u0447\u0435\u0432 \u0415\u0432\u0433\u0435\u043d\u0438\u0439",
+                "password": "76643bc7e9c0ebd539a720d93ff4d0f1",
+                "role_name": 2
+            },
+            {
+                "id": 98552,
+                "login": "anikina",
+                "name": "\u0410\u043d\u0438\u043a\u0438\u043d\u0430 \u0412\u0430\u043b\u0435\u0440\u0438\u044f",
+                "password": "7245ed29ed0d7f3ebe94c242c7be317e",
+                "role_name": 3
+            },
+            {
+                "id": 110387,
+                "login": "antipova",
+                "name": "\u0410\u043d\u0442\u0438\u043f\u043e\u0432\u0430 \u042e\u043b\u0438\u044f \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430",
+                "password": "140f6969d5213fd0ece03148e62e461e",
+                "role_name": 2
+            },
+            {
+                "id": 122378,
+                "login": "a.arkhipova",
+                "name": "\u0410\u0440\u0445\u0438\u043f\u043e\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430",
+                "password": "140f6969d5213fd0ece03148e62e461e",
+                "role_name": 2
+            },
+            {
+                "id": 108493,
+                "login": "a.arkhipov",
+                "name": "\u0410\u0440\u0445\u0438\u043f\u043e\u0432 \u0410\u0440\u0442\u0451\u043c \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447",
+                "password": "619a36f4d5462cced905106aaf3ade12",
+                "role_name": 2
+            }
+        ],
+        "msg": "",
+        "success": true,
+        "total": 370
+    },
+    "clients": {
+        "data": [
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69864,
+                "numbers": null,
+                "app_name": "Людмила Кузнецова",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626088,
+                "watched_app_ids": [],
+                "account_number": "VA20071263",
+                "account_id": 59327,
+                "tp_id": 135,
+                "tariff_plan": "Универсал Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69863,
+                "numbers": null,
+                "app_name": "weisemaster",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626099,
+                "watched_app_ids": [],
+                "account_number": "КМ20071262",
+                "account_id": 59326,
+                "tp_id": 238,
+                "tariff_plan": "CoMagic Optimum - Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69862,
+                "numbers": null,
+                "app_name": "Роман",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626077,
+                "watched_app_ids": [],
+                "account_number": "VA20071261",
+                "account_id": 59325,
+                "tp_id": 133,
+                "tariff_plan": "Первый шаг Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69861,
+                "numbers": null,
+                "app_name": "тест",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626090,
+                "watched_app_ids": [],
+                "account_number": "КМ20071260",
+                "account_id": 59324,
+                "tp_id": 238,
+                "tariff_plan": "CoMagic Optimum - Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69860,
+                "numbers": null,
+                "app_name": "Исмаил",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 614738,
+                "watched_app_ids": [],
+                "account_number": "VA20071259",
+                "account_id": 59323,
+                "tp_id": 135,
+                "tariff_plan": "Универсал Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69859,
+                "numbers": null,
+                "app_name": "remtimespb@mail.ru",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626072,
+                "watched_app_ids": [],
+                "account_number": "VA20071258",
+                "account_id": 59322,
+                "tp_id": 133,
+                "tariff_plan": "Первый шаг Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69858,
+                "numbers": null,
+                "app_name": "Наталья",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626074,
+                "watched_app_ids": [],
+                "account_number": "VA20071257",
+                "account_id": 59321,
+                "tp_id": 136,
+                "tariff_plan": "Максимум Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Блокировка",
+                "is_agent": false,
+                "app_id": 69857,
+                "numbers": null,
+                "app_name": "gksport.ru",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "manual_lock",
+                "customer_id": 554507,
+                "watched_app_ids": [],
+                "account_number": "КМ18061865",
+                "account_id": 49947,
+                "tp_id": 456,
+                "tariff_plan": "Comagic Start",
+                "node_id": 1,
+                "agent_id": 58730,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": -62032.0300
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69856,
+                "numbers": null,
+                "app_name": "Максим",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 510361,
+                "watched_app_ids": [],
+                "account_number": "VA20071256",
+                "account_id": 59320,
+                "tp_id": 133,
+                "tariff_plan": "Первый шаг Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            },
+            {
+                "domain": null,
+                "is_short_phone_shared_in_holding": null,
+                "state_name": "Активен",
+                "is_agent": false,
+                "app_id": 69855,
+                "numbers": null,
+                "app_name": "ИП Смоленцев Константин Петрович",
+                "agent_app_ids": null,
+                "hide_return_commission": null,
+                "is_share_tp": false,
+                "state": "active",
+                "customer_id": 626064,
+                "watched_app_ids": [],
+                "account_number": "VA20071255",
+                "account_id": 59319,
+                "tp_id": 133,
+                "tariff_plan": "Первый шаг Trial",
+                "node_id": 1,
+                "agent_id": null,
+                "total_records": 62969,
+                "agent_tp_is_share": null,
+                "is_use_numb_as_numa": null,
+                "watching_app_ids": [],
+                "transit_dst_app_id": null,
+                "watching_app_ids_on_share_tp": [],
+                "login": null,
+                "balance": 0.0000
+            }
+        ],
+        "metadata": {
+            "total_items": 62969
+        }
+    }
+}

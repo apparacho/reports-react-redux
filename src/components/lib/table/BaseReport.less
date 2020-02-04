@@ -1,0 +1,114 @@
+.basetable {
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+
+    .ant-table-fixed {
+        width: 100%;
+    }
+
+    .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+        overflow: auto;
+    }
+
+    tr td {
+        overflow: hidden;
+        font-size: 13px;
+        line-height: 140%;
+      }
+
+    .react-resizable {
+        position: relative;
+    }
+
+    .react-resizable-handle {
+        position: absolute;
+        width: 10px;
+        height: 100%;
+        bottom: 0;
+        right: -5px;
+        cursor: col-resize;
+    }
+
+    .cell-value {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .cell-text-value {
+        overflow: hidden;
+    }
+
+    .cell-number-value {
+        text-align: right;
+    }
+
+    &.basetable--with-total-row {
+        tr:first-child > td.ant-table-column-sort,
+        tr:first-child > td {
+            background-color: #eeeeee;
+        }
+    }
+}
+
+.tooltip-container {
+    .ant-tooltip-inner {
+        max-height: 600px;
+        overflow-y: auto;
+    }
+}
+
+.grid-container {
+    flex: auto;
+    clear: both;
+    margin-top: 20px;
+}
+
+
+.table-popover {
+    .ant-popover-arrow {
+        border-right-color: rgba(0, 0, 0, 0.75) !important;
+        border-bottom-color: rgba(0, 0, 0, 0.75) !important;
+    }
+
+    .ant-popover-inner-content {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        border-radius: 5px;
+    }
+    .table-popover-content {
+        max-height: 600px;
+        max-width: 600px;
+        overflow: auto;
+
+    }
+
+    .table-popover-line {
+        margin-bottom: 2px;
+    }
+}
+
+.filterpanel {
+    position: relative;
+    display: inline-block;
+}
+
+.report-settings-panel {
+    display: inline-block;
+    float: right;
+}
+
+.filters-panel-loading-overlay {
+    z-index: 9999;
+    position: absolute;
+    right:0;
+    top:0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.5)
+}
+
+.has-error .cell-value  {
+    color: #f5222d
+}

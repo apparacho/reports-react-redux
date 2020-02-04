@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ClientsList from './ClientsList';
+import Page from '../../components/lib/page/BasePage';
+import './ClientsPage.less';
 
-export default function ClientsPage() {
-    return (
-        <div>
-            <h3>- Clients Page </h3>
-            <ClientsList />
-        </div>
-    );
+class ClientsPage extends Component {
+
+    render() {
+
+        return (
+            <Page title="Страница Клиенты" >
+                <ClientsList user={{user_role: 'developer'}} {...this.props} />
+            </Page>
+        );
+    }
 }
+
+export default ClientsPage;

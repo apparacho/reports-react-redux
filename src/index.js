@@ -6,6 +6,10 @@ import App from './App';
 import store from './redux';
 import history from './history';
 
+import { setHttpRequestsDefault } from './ducks/http';
+
+setHttpRequestsDefault();
+
 ReactDOM.render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
