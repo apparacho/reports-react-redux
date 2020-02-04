@@ -152,17 +152,16 @@ export const tableParamsSelector = (state) => reportParamsSelector(state)['table
 
 export const fetchAllClients = () => {
     return (dispatch, getState) => {
-        // if (!getState().clients.clientsList.length) {
-             debugger;
-            dispatch({type: FETCH_CLIENTS_LIST_START});
-            dispatch({type: SET_IS_SUBMITTING, payload: false});
-            loadClientsListService()
-                .then(data => dispatch({
-                    type: FETCH_CLIENTS_LIST_SUCCESS,
-                    payload: data
-                }))
-        }
-    // }
+        console.log('fetchAllClients');
+        // debugger;
+        dispatch({type: FETCH_CLIENTS_LIST_START});
+        dispatch({type: SET_IS_SUBMITTING, payload: false});
+        loadClientsListService()
+            .then(data => dispatch({
+                type: FETCH_CLIENTS_LIST_SUCCESS,
+                payload: data
+            }))
+    }
 };
 
 export const fetchClient = (clientId) => {
@@ -184,8 +183,8 @@ export const fetchClient = (clientId) => {
 export function loadClientsListService () {
     return axios.get('/clients')
         .then(function (response) {
-            console.log(response, response.data);
-            debugger;
+            console.log('loadClientsListService', response, response.data);
+            // debugger;
             return response.data;
         })
 }
@@ -208,8 +207,8 @@ export function loadClientService (clientId) {
 export const getNextReportParams = (search = history.location.search) => {
     console.log(search);
     return (dispatch, getState, x, y) => {
-        console.log(dispatch, getState(), x, y);
-        debugger;
+        console.log('getNextReportParams', dispatch, getState(), x, y);
+        // debugger;
         const paramsFromUrl = queryString.parse(search, {arrayFormat: 'index'});
         if (search && paramsFromUrl.sort && paramsFromUrl.sort.length) {
             paramsFromUrl.sort = paramsFromUrl.sort.map(i => i ? JSON.parse(i) : i);
@@ -232,23 +231,16 @@ export const onFiltersFormSubmit = (values, action) => {
     return (dispatch, getState) => {
         // this.setTableDefaults();
         const tableParams = tableParamsSelector(getState());
-        console.log(tableParams);
+        console.log('onFiltersFormSubmit', tableParams);
         const {hash, pathname, state} = history.location,
             search = getNextSearch(values, {...tableParams, offset: 0});
-        // reducer !!!
-        // this.isSubmitting = true;
         dispatch({ type: SET_IS_SUBMITTING, payload: true });
-        debugger;
+        // debugger;
         history.push({hash, pathname, state, search});
     }
 };
 
 
-// это в редьюсер
-// export const setTableDefaults = () => {
-//     this.reportParams.tableParams = {...this.defaultReportParams.tableParams};
-//     this.tablePagination = {...this.defaultTablePagination};
-// };
 
 export const getNextSearch = (filterParams, tableParams) => {
     const filterParamsSearch = queryString.stringify(filterParams, {arrayFormat: 'index'}),
@@ -265,8 +257,6 @@ export const checkReportParams = () => {
             autoload = autoloadSelector(getState()),
             isSubmitting = isSubmittingSelector(getState());
 
-        debugger;
-
         if (!history.location.search && autoload && !isSubmitting) {
             if (!isEqual(filterParams, nextReportParams.filterParams) || !isEqual(tableParams, nextReportParams.tableParams)) {
                 // this.initParams();
@@ -275,7 +265,6 @@ export const checkReportParams = () => {
         } else if (isSubmitting){
             // || (!history.location.search && autoload)
             // || (!isEqual(filterParams, nextReportParams.filterParams) || !isEqual(tableParams, nextReportParams.tableParams))) {
-            debugger;
             const {limit, offset} = nextReportParams.tableParams;
             limit && offset && setTablePaginationFromUrlParams({limit, offset})(dispatch);
             // reducer !!!
@@ -285,14 +274,15 @@ export const checkReportParams = () => {
             history.replace({hash, pathname, state, search: searchFromParams});
             //this.load();
             // dispatch();
-            debugger;
+            console.log('checkReportParams isSubmitting == true ');
+            // debugger;
             fetchAllClients()(dispatch, getState);
         }
     }
 };
 
 export const setTablePaginationFromUrlParams = ({offset, limit}) => {
-    debugger;
+    console.log('setTablePaginationFromUrlParams');
     return (dispatch) => {
         dispatch({
             type: SET_TABLE_PAGINATION,
@@ -302,7 +292,7 @@ export const setTablePaginationFromUrlParams = ({offset, limit}) => {
 };
 
 export const onTableParamsChange = (pagination, filter, sort, ...rest) => {
-    debugger;
+    console.log('onTableParamsChange');
     return (dispatch, getState) => {
         const isLoaded = isLoadedSelector(getState());
         const tableParams = tableParamsSelector(getState());
@@ -327,7 +317,6 @@ export const onTableParamsChange = (pagination, filter, sort, ...rest) => {
         const {hash, pathname, state} = history.location,
             search = getNextSearch(filterParams, nextTableParams);
 
-        // this.isSubmitting = true;
         dispatch({type: SET_IS_SUBMITTING, payload: true});
 
         history.push({hash, pathname, state, search});
