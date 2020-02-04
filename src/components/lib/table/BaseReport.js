@@ -6,7 +6,6 @@ import Icon from '../icon/icon';
 import SettingsModal from './settingsmodal/SettingsModal';
 import { getReportColumns } from './settingsmodal/SettingsModal';
 import columnRenders from './ColumnRenders';
-import { isEqual } from 'lodash';
 
 import sortAscImg from '../icon/table-column-sort-asc.png'
 import sortDescImg from '../icon/table-column-sort-desc.png'
