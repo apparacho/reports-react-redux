@@ -34,7 +34,6 @@ class BaseReportTable extends Component {
 
     componentDidUpdate() {
         console.log('BaseReport -- componentDidUpdate');
-        debugger;
         this.props.store.checkReportParams();
     }
 
