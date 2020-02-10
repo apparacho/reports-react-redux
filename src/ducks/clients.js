@@ -28,7 +28,7 @@ export const defaultTablePagination = {
     total: 0
 };
 
-const initState = {
+const initialState = {
     reportParams: {
         filterParams: {...defaultFilterParams},
         tableParams: {...defaultTableParams}
@@ -88,44 +88,26 @@ export const SET_IS_SUBMITTING = `${prefix}/SET_IS_SUBMITTING`;
  * Reducer
  * */
 
-// const ACTION_HANDLERS = {
-//   [ACTION_1]: (state, action) => ...,
-//   [ACTION_2]: (state, action) => ...,
-//   [ACTION_3]: (state, action) => ...,
-//   [ACTION_4]: (state, action) => ...,
-//   ...
-// };
-//
-// const reducer = (state = INITIAL_STATE, action) => {
-//   const handler = ACTION_HANDLERS[action.type];
-//   return handler ? handler(state, action) : state;
-// };
 
-export default function reducer(state = initState, action) {
-  const { type, payload } = action;
+const ACTION_HANDLERS = {
+  [FETCH_CLIENTS_LIST_START]: (state, action) => ({...state, loading: true}),
+  [FETCH_CLIENT_START]: (state, action) => ({...state, loading: true}),
+  [FETCH_CLIENTS_LIST_SUCCESS]: (state, action) => ({
+      ...state,
+      clientsList: action.payload.data,
+      metadata: action.payload.metadata,
+      isLoaded: true,
+      loading: false
+  }),
+  [FETCH_CLIENT_SUCCESS]: (state, action) => ({...state, client: action.payload, loading: false}),
+  [SET_TABLE_PAGINATION]: (state, action) => ({...state, tablePagination: action.payload}),
+  [SET_IS_SUBMITTING]: (state, action) => ({...state, isSubmitting: action.payload}),
+};
 
-  switch (type) {
-      case FETCH_CLIENTS_LIST_START:
-      case FETCH_CLIENT_START:
-          return {...state, loading: true};
-      case FETCH_CLIENTS_LIST_SUCCESS:
-          return {
-              ...state,
-              clientsList: payload.data,
-              metadata: payload.metadata,
-              isLoaded: true,
-              loading: false
-          };
-      case FETCH_CLIENT_SUCCESS:
-          return {...state, client: payload, loading: false};
-      case SET_TABLE_PAGINATION:
-          return {...state, tablePagination: payload};
-      case SET_IS_SUBMITTING:
-          return {...state, isSubmitting: payload};
-      default:
-          return state
-  }
-}
+export default function reducer(state = initialState, action) {
+  const handler = ACTION_HANDLERS[action.type];
+  return handler ? handler(state, action) : state;
+};
 
 /**
  * Selectors
