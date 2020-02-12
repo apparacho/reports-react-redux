@@ -120,7 +120,7 @@ export function loadListDataService () {
     return axios.get('/calls')
         .then(function (response) {
             console.log(`loadListDataService -- ${moduleName}`, response, response.data);
-            debugger;
+            // debugger;
             return response.data;
         })
 }
@@ -161,7 +161,7 @@ export const onFiltersFormSubmit = (values, action) => {
         const {hash, pathname, state} = history.location,
             search = getNextSearch(values, {...tableParams, offset: 0});
         dispatch({ type: SET_IS_SUBMITTING, payload: true });
-        debugger;
+        // debugger;
         history.push({hash, pathname, state, search});
     }
 };
@@ -189,7 +189,7 @@ export const checkReportParams = () => {
                 debugger;
             }
         } else if (isSubmitting){
-            debugger;
+            // debugger;
             const {limit, offset} = nextReportParams.tableParams;
             limit && offset && setTablePaginationFromUrlParams({limit, offset})(dispatch);
             const searchFromParams = getNextSearch(nextReportParams.filterParams, nextReportParams.tableParams),

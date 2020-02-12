@@ -9,10 +9,9 @@ import {
     filterParamsSelector, tableParamsSelector, reportParamsSelector, listDataSelector, loadingSelector
 
 
-} from '../../ducks/calls';
-// } from '../../ducks/callsNew1';
+} from '../../ducks/callsNew1';
 
-class CallsList extends Component {
+class CallsNew1List extends Component {
 
     render() {
         const { filterParams, reportParams, items, checkReportParams, onTableParamsChange, onFiltersFormSubmit } = this.props,
@@ -64,7 +63,7 @@ export default connect(
 
     }),
     { onFiltersFormSubmit, getNextReportParams, checkReportParams, onTableParamsChange}
-)(CallsList);
+)(CallsNew1List);
 
 
 const columns = [

@@ -57,10 +57,6 @@ class ClientsList extends Component {
             }
         };
 
-        // const Report = withTranslation('clients')(inject(allStores => ({
-        //         store: allStores['clientsStore']
-        //     }))(observer(BaseReport)));
-
         return (
             <>
                 <div className="clients-list" >
@@ -70,8 +66,6 @@ class ClientsList extends Component {
         );
     }
 }
-
-// export default withRouter(ClientsList);
 
 export default connect(
     (state) => ({
@@ -84,8 +78,6 @@ export default connect(
     }),
     { onFiltersFormSubmit, getNextReportParams, checkReportParams, onTableParamsChange}
 )(ClientsList);
-
-
 
 
 const getColumns = (props) => {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import ClientsRoute from './ClientsRoute';
 import CallsRoute from './CallsRoute';
+import CallsNew1Route from './CallsNew1Route';
 import AppLayout from "../components/Layout";
 
 class AppRoute extends Component {
@@ -13,6 +14,7 @@ class AppRoute extends Component {
                 <Switch>
                     <Route path="/clients" component={ClientsRoute} />
                     <Route path="/calls" component={CallsRoute} />
+                    <Route path="/calls-new-1" component={CallsNew1Route} />
                     <Redirect to="/clients" />
                 </Switch>
             </AppLayout>

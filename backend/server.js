@@ -49,6 +49,14 @@ server.post('/:method.clients', (req, res) => {
     return res.jsonp(responseData)
 });
 
+server.post('/:method.client', (req, res) => {
+    let responseData = {};
+    if (req.params['method'] === 'get') {
+        Object.assign(responseData, responseDataStructure, {result: Object.assign({}, reportResultStructure, dbJson['client'])});
+    }
+    return res.jsonp(responseData)
+});
+
 
 
 

@@ -12,7 +12,8 @@ const {
 
 const menuItems = [
     { key: 'clients', icon: 'team', label: 'Клиенты' },
-    { key: 'calls', icon: 'phone', label: 'Звонки' }
+    { key: 'calls', icon: 'phone', label: 'Звонки' },
+    { key: 'calls-new-1', icon: 'phone', label: 'Звонки New 1' },
 ];
 
 const WestMenu = ({appStore, selectedKeys}) => {

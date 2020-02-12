@@ -44,24 +44,24 @@ export const initialState = {
 
 export const getPrefix = (moduleName) => `${appName}/${moduleName}`;
 
-export const getBaseReportDuck = (moduleName) => {
+export const getNextSearch = (filterParams, tableParams) => {
+    const filterParamsSearch = queryString.stringify(filterParams, {arrayFormat: 'index'}),
+        tableParamsSearch = queryString.stringify({...tableParams, sort: tableParams.sort ? tableParams.sort.map(i => JSON.stringify(i)) : null}, {arrayFormat: 'index'}),
+        separator = filterParamsSearch && tableParamsSearch ? '&' : '';
+    return  filterParamsSearch + separator + tableParamsSearch;
+};
+
+export const getBaseReportDuck = (moduleName, fetchListUrl) => {
+
     const prefix = getPrefix(moduleName);
 
     /**
      *   Constants
      * */
-    const CONSTS = {
-        FETCH_LIST_START: `${prefix}/FETCH_LIST_START`,
-        FETCH_LIST_SUCCESS: `${prefix}/FETCH_LIST_SUCCESS`,
-        SET_TABLE_PAGINATION: `${prefix}/SET_TABLE_PAGINATION`,
-        SET_IS_SUBMITTING: `${prefix}/SET_IS_SUBMITTING`
-    },
-    {
-        FETCH_LIST_START,
-        FETCH_LIST_SUCCESS,
-        SET_TABLE_PAGINATION,
-        SET_IS_SUBMITTING
-    } = CONSTS;
+    const FETCH_LIST_START = `${prefix}/FETCH_LIST_START`,
+        FETCH_LIST_SUCCESS = `${prefix}/FETCH_LIST_SUCCESS`,
+        SET_TABLE_PAGINATION = `${prefix}/SET_TABLE_PAGINATION`,
+        SET_IS_SUBMITTING = `${prefix}/SET_IS_SUBMITTING`;
 
     /**
      *  Reducer
@@ -80,23 +80,15 @@ export const getBaseReportDuck = (moduleName) => {
         [SET_IS_SUBMITTING]: (state, action) => ({...state, isSubmitting: action.payload}),
     };
 
-    const ACTIONS = {
-        fetchListStart: () => ({type: CONSTS.FETCH_LIST_START}),
-        fetchListSuccess: (data) => ({type: CONSTS.FETCH_LIST_SUCCESS, payload: data }),
-        setIsSubmitting: (val) => ({type: CONSTS.SET_IS_SUBMITTING, payload: val}),
-        setTablePagination: (offset, limit) => ({
-            type: CONSTS.SET_TABLE_PAGINATION,
-            payload: {...defaultTablePagination, pageSize: +limit, current: +offset / +limit + 1}
-        })
-    },
-    {
-        fetchListStart,
-        fetchListSuccess,
-        setIsSubmitting,
-        setTablePagination
-    } = ACTIONS;
+    const fetchListStart = () => ({type: FETCH_LIST_START});
+    const fetchListSuccess = (data) => ({type: FETCH_LIST_SUCCESS, payload: data });
+    const setIsSubmitting = (val) => ({type: SET_IS_SUBMITTING, payload: val});
+    const setTablePagination = (offset, limit) => ({
+        type: SET_TABLE_PAGINATION,
+        payload: {...defaultTablePagination, pageSize: +limit, current: +offset / +limit + 1}
+    });
 
-    const getReducer = (actionHandlers = ACTION_HANDLERS, iState = initialState) => function reducer(state = iState, action) {
+    const getReducer = (actionHandlers = ACTION_HANDLERS, iState = initialState) => (state = iState, action) => {
         const handler = actionHandlers[action.type];
         return handler ? handler(state, action) : state;
     };
@@ -105,28 +97,33 @@ export const getBaseReportDuck = (moduleName) => {
      * Selectors
      * */
 
+    const stateSelector = (state) => state[moduleName];
 
-        const stateSelector = (state) => state[moduleName];
-        const listDataSelector = (state) => stateSelector(state)['listData'];
+    const listDataSelector = (state) => stateSelector(state)['listData'];
 
-        const loadingSelector = (state) => stateSelector(state)['loading'];
-        const autoloadSelector = (state) => stateSelector(state)['autoload'];
-        const isSubmittingSelector = (state) => stateSelector(state)['isSubmitting'];
-        const isLoadedSelector = (state) => stateSelector(state)['isLoaded'];
+    const loadingSelector = (state) => stateSelector(state)['loading'];
+    const autoloadSelector = (state) => stateSelector(state)['autoload'];
+    const isSubmittingSelector = (state) => stateSelector(state)['isSubmitting'];
+    const isLoadedSelector = (state) => stateSelector(state)['isLoaded'];
 
-        const reportParamsSelector = (state) => stateSelector(state)['reportParams'];
-        const filterParamsSelector = (state) => reportParamsSelector(state)['filterParams'];
-        const tableParamsSelector = (state) => reportParamsSelector(state)['tableParams'];
+    const reportParamsSelector = (state) => stateSelector(state)['reportParams'];
+    const filterParamsSelector = (state) => reportParamsSelector(state)['filterParams'];
+    const tableParamsSelector = (state) => reportParamsSelector(state)['tableParams'];
+
+    const defaultReportParamsSelector = (state) => stateSelector(state)['defaultReportParams'];
+    const defaultFilterParamsSelector = (state) => defaultReportParamsSelector(state)['filterParams'];
+    const defaultTableParamsSelector = (state) => defaultReportParamsSelector(state)['tableParams'];
 
 
     /**
      * Action Creators
      * */
 
+    /**************************** MODULENAME ************************/
     const fetchListData = () => {
         return (dispatch, getState) => {
             console.log(`fetch list data`);
-            dispatch(fetchListStart);
+            dispatch(fetchListStart());
             dispatch(setIsSubmitting(false));
             loadListDataService()
                 .then(data => dispatch(fetchListSuccess(data)))
@@ -138,11 +135,13 @@ export const getBaseReportDuck = (moduleName) => {
      *   Side Effects
      * */
 
-     const loadListDataService = () => {
-        return axios.get('/calls')
+
+        /**************************** URL ************************/
+    const loadListDataService = () => {
+        return axios.get(fetchListUrl)
             .then(function (response) {
                 console.log(`loadListDataService `, response, response.data);
-                debugger;
+                // debugger;
                 return response.data;
             })
     };
@@ -153,11 +152,9 @@ export const getBaseReportDuck = (moduleName) => {
      *
      * **/
 
-
     const getNextReportParams = (search = history.location.search) => {
         console.log(search);
-        return (dispatch, getState, x, y) => {
-            console.log('getNextReportParams', dispatch, getState(), x, y);
+        return (dispatch, getState) => {
             const paramsFromUrl = queryString.parse(search, {arrayFormat: 'index'});
             if (search && paramsFromUrl.sort && paramsFromUrl.sort.length) {
                 paramsFromUrl.sort = paramsFromUrl.sort.map(i => i ? JSON.parse(i) : i);
@@ -168,9 +165,11 @@ export const getBaseReportDuck = (moduleName) => {
                 ...res,
                 [key]: key in paramsFromUrl ? paramsFromUrl[key] : defaultParams[key]
             }), {});
+            // const defaultFilterParams = defaultFilterParamsSelector(getState);
+            // const defaultTableParams = defaultTableParamsSelector(getState);
             return {
-                filterParams: search ? getNextParams(getState().clients.reportParams.filterParams || {}, defaultFilterParams) : defaultFilterParams,
-                tableParams: search ? getNextParams(getState().clients.reportParams.tableParams, defaultTableParams) : defaultTableParams
+                filterParams: search ? getNextParams(filterParamsSelector(getState()) || {}, defaultFilterParams) : defaultFilterParams,
+                tableParams: search ? getNextParams(tableParamsSelector(getState()), defaultTableParams) : defaultTableParams
             };
         }
     };
@@ -183,16 +182,9 @@ export const getBaseReportDuck = (moduleName) => {
             const {hash, pathname, state} = history.location,
                 search = getNextSearch(values, {...tableParams, offset: 0});
             dispatch(setIsSubmitting(true));
-            debugger;
+            // debugger;
             history.push({hash, pathname, state, search});
         }
-    };
-
-    const getNextSearch = (filterParams, tableParams) => {
-        const filterParamsSearch = queryString.stringify(filterParams, {arrayFormat: 'index'}),
-            tableParamsSearch = queryString.stringify({...tableParams, sort: tableParams.sort ? tableParams.sort.map(i => JSON.stringify(i)) : null}, {arrayFormat: 'index'}),
-            separator = filterParamsSearch && tableParamsSearch ? '&' : '';
-        return  filterParamsSearch + separator + tableParamsSearch;
     };
 
     const checkReportParams = () => {
@@ -209,7 +201,7 @@ export const getBaseReportDuck = (moduleName) => {
                     debugger;
                 }
             } else if (isSubmitting){
-                debugger;
+                // debugger;
                 const {limit, offset} = nextReportParams.tableParams;
                 limit && offset && setTablePaginationFromUrlParams({limit, offset})(dispatch);
                 const searchFromParams = getNextSearch(nextReportParams.filterParams, nextReportParams.tableParams),
@@ -221,24 +213,17 @@ export const getBaseReportDuck = (moduleName) => {
         }
     };
 
-    const setTablePaginationFromUrlParams = ({offset, limit}) => {
-        console.log('setTablePaginationFromUrlParams');
-        return (dispatch) => {
-            dispatch(setTablePagination(offset, limit));
-        }
-    };
+    const setTablePaginationFromUrlParams = ({offset, limit}) => (dispatch) => dispatch(setTablePagination(offset, limit));
 
     const onTableParamsChange = (pagination, filter, sort, ...rest) => {
         console.log('onTableParamsChange');
         return (dispatch, getState) => {
-            const isLoaded = isLoadedSelector(getState());
-            const tableParams = tableParamsSelector(getState());
-            const filterParams = filterParamsSelector(getState());
-
-            if (!isLoaded) {
+            if (!isLoadedSelector(getState())) {
                 return;
             }
-            let nextTableParams = {
+            const tableParams = tableParamsSelector(getState());
+            const filterParams = filterParamsSelector(getState());
+            const nextTableParams = {
                 limit: pagination.pageSize,
                 offset: (pagination.current - 1) * pagination.pageSize,
                 sort: sort.field
@@ -262,10 +247,19 @@ export const getBaseReportDuck = (moduleName) => {
 
 
     return {
-        CONSTS,
+        CONSTS: {
+            FETCH_LIST_START,
+            FETCH_LIST_SUCCESS,
+            SET_TABLE_PAGINATION,
+            SET_IS_SUBMITTING
+        },
         ACTION_HANDLERS,
-        ACTIONS,
-        getReducer,
+        ACTIONS: {
+            fetchListStart,
+            fetchListSuccess,
+            setIsSubmitting,
+            setTablePagination
+        },
         SELECTORS: {
             stateSelector,
             listDataSelector,
@@ -279,9 +273,9 @@ export const getBaseReportDuck = (moduleName) => {
             filterParamsSelector,
             tableParamsSelector
         },
+        getReducer,
         getNextReportParams,
         onFiltersFormSubmit,
-        getNextSearch,
         checkReportParams,
         setTablePaginationFromUrlParams,
         onTableParamsChange
